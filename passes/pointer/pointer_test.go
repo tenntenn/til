@@ -3,7 +3,7 @@ package pointer_test
 import (
 	"testing"
 
-	"github.com/tenntenn/passes/pointer"
+	"github.com/tenntenn/til/passes/pointer"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 
