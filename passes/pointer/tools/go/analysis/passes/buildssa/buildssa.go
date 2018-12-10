@@ -46,6 +46,7 @@ func run(pass *analysis.Pass) (interface{}, error) {
 	// Analysis.Run on a package will see only SSA objects belonging
 	// to a single Program.
 
+	// Fixed it by tenntenn
 	mode := ssa.GlobalDebug
 
 	prog := ssa.NewProgram(pass.Fset, mode)
